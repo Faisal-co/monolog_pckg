@@ -7,6 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInita2e1fb96fee87a59cd46c312ab58ddc7
 {
     public static $prefixLengthsPsr4 = array (
+        'V' => 
+        array (
+            'Vew\\Usser\\To\\' => 13,
+        ),
+        'S' => 
+        array (
+            'Srcc\\Usser\\' => 11,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -14,14 +22,23 @@ class ComposerStaticInita2e1fb96fee87a59cd46c312ab58ddc7
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Mod\\Usser\\' => 10,
         ),
-        'A' => 
+        'C' => 
         array (
-            'Acme\\' => 5,
+            'Cont\\Usser\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Vew\\Usser\\To\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/views',
+        ),
+        'Srcc\\Usser\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/src',
@@ -30,9 +47,13 @@ class ComposerStaticInita2e1fb96fee87a59cd46c312ab58ddc7
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
-        'Acme\\' => 
+        'Mod\\Usser\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/models',
+        ),
+        'Cont\\Usser\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/controllers',
         ),
     );
 

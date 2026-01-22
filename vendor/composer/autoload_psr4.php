@@ -6,7 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Vew\\Usser\\To\\' => array($baseDir . '/views'),
+    'Srcc\\Usser\\' => array($baseDir . '/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
-    'Acme\\' => array($baseDir . '/src'),
+    'Mod\\Usser\\' => array($baseDir . '/models'),
+    'Cont\\Usser\\' => array($baseDir . '/controllers'),
 );

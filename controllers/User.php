@@ -2,6 +2,6 @@
 namespace Cont\Usser;
 class User{
     public function __construct(){
-        echo "This is controllers User class";
+        echo "This is controllers User class with use & as keyword & autoload ABC<br>";
     }
 }

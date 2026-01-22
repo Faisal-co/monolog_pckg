@@ -1,6 +1,10 @@
 {
     "autoload": {
-        "psr-4": {"Acme\\": "src/"}
+        "psr-4":{
+            "Cont\\Usser\\": "controllers/",
+            "Mod\\Usser\\": "models/",
+            "Vew\\Usser\\To\\": "views/",
+            "Srcc\\Usser\\": "src/"}
     },
     "require": {
         "monolog/monolog": "^3.10"
