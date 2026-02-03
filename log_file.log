@@ -14,3 +14,6 @@
 [2026-01-22T11:03:35.040053+00:00] info.INFO: my very first log message to file [] []
 [2026-01-22T11:03:35.044260+00:00] info.ERROR: This is an error happened {"username":"faisal"} []
 [2026-01-22T11:03:35.044593+00:00] orders.WARNING: Orders has no address [] []
+[2026-02-03T18:58:51.526046+00:00] info.INFO: my very first log message to file [] []
+[2026-02-03T18:58:51.617725+00:00] info.ERROR: This is an error happened {"username":"faisal"} []
+[2026-02-03T18:58:51.619789+00:00] orders.WARNING: Orders has no address [] []
